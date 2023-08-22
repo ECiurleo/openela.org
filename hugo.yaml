@@ -36,10 +36,13 @@ params:
     image: illustrations/hydrangea-hero.svg
     clientlogos:
     - logo: ciq
+      alt: CIQ Logo
       url: https://ciq.com
     - logo: oracle
+      alt: Oracle Logo
       url: https://www.oracle.com
     - logo: suse
+      alt: SUSE Logo
       url: https://www.suse.com
   navbar:
   - title: About
@@ -51,24 +54,32 @@ params:
   section3:
     title: The Community Repository for Enterprise Linux Sources
     subtitle: No subscriptions. No passwords. No barriers. Freeloaders welcome.
-    image: illustrations/git-forge.png
+    image:
+      src: illustrations/git-forge.png
+      alt: Git Forge Logo
     buttonText: Learn More
     buttonLink: "/about"
-  footer:
-    logo: openELA.svg
-    socialmediatitle: Follow Us
-    socialmedia:
+footer:
+  logo:
+    src: openELA.svg
+    alt: Alt Text for Footer Logo
+  socialmediatitle: Follow Us
+  socialmedia:
     - link: https://github.com/openela
       icon: github
+      alt: GitHub Icon Link
     - link: https://twitter.com/@openelaorg
       icon: twitter
+      alt: Twitter Icon Link
     - link: https://www.linkedin.com/company/openela
       icon: linkedin
-    quicklinks:
-      column1:
-        title: ""
-      column2:
-        title: ""
-      column3:
-        title: ""
+      alt: LinkedIn Icon Link
+  quicklinks:
+    column1:
+      title: ""
+    column2:
+      title: ""
+    column3:
+      title: ""
+
 
