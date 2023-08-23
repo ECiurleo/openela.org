@@ -9,3 +9,8 @@ tmp
 hugo.exe
 hugo.linux
 hugo.darwin
+
+package-lock.json
+.hugo_build.lock
+
+.idea/
